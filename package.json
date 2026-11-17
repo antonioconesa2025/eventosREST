@@ -1,0 +1,19 @@
+{
+  "name": "practica_1_eventos",
+  "version": "1.0.0",
+  "description": "API REST con Express y Mongoose que gestione las entradas a un conjunto de eventos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1"
+  }
+}
