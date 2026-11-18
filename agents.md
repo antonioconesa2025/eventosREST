@@ -83,3 +83,11 @@ Dentro de `routes/entradas.js`:
 
 - `PUT /eventos/entradas/:idEvento/:tipoEntrada/:cantidad` - resta la cantidad de entradas de las disponibles para el evento y tipo de entrada indicados. Por ejemplo, para idEvento=3, tipoEntrada=VIP y
 cantidad=5 restaría 5 entradas disponibles de tipo VIP en el evento 3. Devolverá un código 200 si se ha podido realizar correctamente, y un campo resultado con el evento y sus entradas actualizadas. Si falla la operación, o no hay tantas entradas disponibles para restar, se devolverá un código 404 con un campo error que diga "Error actualizando entradas del evento X", siendo X el id del evento facilitado.
+
+## 6. Añadir fichero configuración
+
+Genera el fichero env con la información de configuración del proyecto.
+
+## 7. Generar archivo de pruebas `pruebas.http`
+
+Usando REST Client for Visual Studio Code, necesito que añadas consultas para probar todas las rutas a la base de datos y comprobar que funcionan bien todas las rutas. Añade 5 ejemplos de eventos, 5 ejemplos de recintos y 5 ejemplos de entradas. Del resto de rutas escribe un par de ejemplos. Hazlo todo en el archivo pruebas.http.
